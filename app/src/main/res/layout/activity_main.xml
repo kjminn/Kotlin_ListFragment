@@ -13,7 +13,7 @@
         android:layout_marginTop="25dp"
         android:layout_marginBottom="34dp"
         android:text="MainActivity"
-        app:layout_constraintBottom_toTopOf="@+id/fragmentLayout"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.035" />
 
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentLayout"
+        android:id="@+id/frameLayout"
         android:name="kr.ac.yuhan.minn.kotlin_listfragment.ListFragment"
         tools:layout="@layout/fragment_list"
         android:layout_width="match_parent"
