@@ -20,6 +20,8 @@ class ListFragment : Fragment() {
         binding.btnNext.setOnClickListener {
             minActivity?.goDetail()
         }
+        binding.textTitle.text = arguments?.getString("key1")
+        binding.textValue.text = "${arguments?.getInt("key2")}"
 
         return binding.root
     }
